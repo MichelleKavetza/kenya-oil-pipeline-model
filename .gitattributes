@@ -1,0 +1,2 @@
+WDPA_Apr2025_Public_csv/WDPA_Apr2025_Public_csv.csv filter=lfs diff=lfs merge=lfs -text
+*.ipynb filter=lfs diff=lfs merge=lfs -text
