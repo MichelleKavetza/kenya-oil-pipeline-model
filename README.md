@@ -27,15 +27,20 @@
 
 ### 3. Geographic Information System (GIS).
 **Nature of Pipeline Segments.**
+
 ![image](https://github.com/user-attachments/assets/3ee2e368-fafa-4988-b7be-2e06934b8055)
 - Majority of the Pipeline lies (65%) `Above Ground` while 35% is `Below Ground`.
 
 **Pipeline Coverage per County.**
+
 ![image](https://github.com/user-attachments/assets/2a5ff793-22e7-4c3f-99c0-2b40990691ef)
 - The pipeline spans multiple counties, including urban areas like Nairobi and coastal counties such as Kilifi, Kwale, and Mombasa.
 - Mombasa has the shortest pipeline coverage (6,127.97 meters), with a percentage coverage of `0.54%`, followed by Meru (17,984.79 meters).
 - Kajiado has the longest pipeline coverage (390,091.30 meters) and highest percentage pipeline coverage with `34%`, followed by Taita Taveta (340,304.65 meters) with `30%`.
 
 **Distribution of Risk to Settlements.**
+
 ![image](https://github.com/user-attachments/assets/6085746b-b999-4ec6-a423-47454277b7b7)
 - The visualization above identifies high risk areas where pipelines pass through densely populated regions.
+
+
