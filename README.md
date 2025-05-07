@@ -41,12 +41,13 @@ Majority of the Pipeline lies (65%) `Above Ground` while 35% is `Below Ground`.
 - **Distribution of Risk to Settlements.**
 
 ![image](https://github.com/user-attachments/assets/6085746b-b999-4ec6-a423-47454277b7b7)
+
 The visualization above identifies high risk areas where pipelines pass through densely populated regions.
 
 - **Map Visual**
 
 ![image](https://github.com/user-attachments/assets/c3dc93f8-95a4-4c48-b233-bf0286b5242b)
-The map above shows the features used for Geospatial Analysis and Modeling the red line in represents the pipeline route that was predicted in the Turkana region.
+The map above shows the features used for Geospatial Analysis and Modeling, the red line in represents the pipeline route that was predicted in the Turkana region.
 
 ### 4. Modeling
 ### 5. Deployment
