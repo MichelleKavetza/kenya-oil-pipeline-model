@@ -20,4 +20,13 @@
 - Provide a Scalable and Efficient Geospatial Risk Pipeline.
   
 
-### Data Preperation.
+### 2. Data Understanding.
+- To develop an intelligent machine learning system for pipeline risk assessment based on population exposure, the project relies on multiple structured geospatial datasets that capture pipeline geometries, settlement patterns, and inferred human presence across Kenya.
+
+#### 2.1. Data sources.
+
+### Geographic Information System (GIS).
+
+![image](https://github.com/user-attachments/assets/3ee2e368-fafa-4988-b7be-2e06934b8055)
+
+
