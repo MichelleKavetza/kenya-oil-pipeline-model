@@ -50,13 +50,12 @@ The visualization above identifies high risk areas where pipelines pass through 
 The map above shows the features used for Geospatial Analysis and Modeling, the red line in represents the pipeline route that was predicted in the Turkana region.
 
 ### 4. Modeling
-Modeling
 
-Building on the rich geospatial datasets described in the Data Understanding section, our modeling approach aims to predict environmental risks associated with oil and gas pipelines in Kenya. We employed a stacking ensemble method to leverage the strengths of multiple machine learning models, enhancing predictive performance for the critical high-risk class.
+-Building on the rich geospatial datasets described in the Data Understanding section, our modeling approach aims to predict environmental risks associated with oil and gas pipelines in Kenya. We employed a stacking ensemble method to leverage the strengths of multiple machine learning models, enhancing predictive performance for the critical high-risk class.
 
 **Stacking Ensemble**
 
-Stacking, or stacked generalization, is an ensemble technique that integrates predictions from several base models through a meta-model, which learns how to optimally combine these predictions. This method was chosen to capture diverse learning patterns and mitigate the weaknesses of individual models, thereby enhancing generalization and robustness.
+-Stacking, or stacked generalization, is an ensemble technique that integrates predictions from several base models through a meta-model, which learns how to optimally combine these predictions. This method was chosen to capture diverse learning patterns and mitigate the weaknesses of individual models, thereby enhancing generalization and robustness.
 
 *Base Models*
 
@@ -67,10 +66,10 @@ XGBoost: A gradient boosting algorithm that excels at handling imbalanced data a
 Support Vector Machine (SVM): Chosen for its effectiveness in margin separation, particularly useful for distinguishing between risk categories with clear boundaries.
 
 **Meta-Model**
-A meta-model, typically a logistic regression or another simple classifier, is trained on the predictions of the base models to produce the final risk classification. This allows the ensemble to learn when to trust each base model, improving prediction accuracy for critical outcomes.
+-A meta-model, typically a logistic regression or another simple classifier, is trained on the predictions of the base models to produce the final risk classification. This allows the ensemble to learn when to trust each base model, improving prediction accuracy for critical outcomes.
 
 **Feature Engineering**
-The model utilizes a rich set of geospatial features derived from various data sources, including:
+-The model utilizes a rich set of geospatial features derived from various data sources, including:
 Proximity Features: Distances to roads, settlements, waterways, and national parks, calculated using GeoPandas.
 
 Categorical Features: Indicators such as whether a pipeline segment lies within a no-disturbance zone or its location type (above or below ground).
@@ -81,7 +80,7 @@ Feature importance analysis highlights that distance to road and within no distu
 
 **Evaluation Metrics**
 
-Given the class imbalance in pipeline risk data, we prioritize the weighted F1-score as the primary evaluation metric. This metric accounts for the differing class distributions by computing a weighted average of F1-scores for each risk category, ensuring that the model performs well across all classes, especially the critical high-risk segments.
+-Given the class imbalance in pipeline risk data, we prioritize the weighted F1-score as the primary evaluation metric. This metric accounts for the differing class distributions by computing a weighted average of F1-scores for each risk category, ensuring that the model performs well across all classes, especially the critical high-risk segments.
 
 Additionally, we focus on precision and recall for the high-risk class:
 
@@ -91,7 +90,7 @@ Recall: Ensures that actual high-risk segments are correctly identified, prevent
 
 **Data Preparation**
 
-Data preparation involves several steps using Python and GeoPandas:
+-Data preparation involves several steps using Python and GeoPandas:
 
 Geometric Processing: Converting pipeline linestrings into lengths and extracting GPS point sequences.
 
